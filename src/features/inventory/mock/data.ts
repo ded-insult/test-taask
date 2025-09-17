@@ -1,0 +1,88 @@
+import type { InventoryItem } from "../model/types/inventoryItem";
+
+export const MOCK_INVENTORY: InventoryItem[] = [
+  {
+    id: "potion-health-001",
+    name: "Зелье здоровья",
+    icon: "https://via.placeholder.com/64?text=HP",
+    weight: 0.5,
+    quantity: 5,
+  },
+  {
+    id: "bread-001",
+    name: "Хлеб",
+    icon: "https://via.placeholder.com/64?text=Bread",
+    weight: 0.3,
+    quantity: 12,
+  },
+  {
+    id: "sword-iron-001",
+    name: "Железный меч",
+    icon: "https://via.placeholder.com/64?text=Sword",
+    weight: 3.2,
+    quantity: 1,
+  },
+  {
+    id: "shield-wood-001",
+    name: "Деревянный щит",
+    icon: "https://via.placeholder.com/64?text=Shield",
+    weight: 4.0,
+    quantity: 1,
+  },
+  {
+    id: "apple-001",
+    name: "Яблоко",
+    icon: "https://via.placeholder.com/64?text=Apple",
+    weight: 0.2,
+    quantity: 8,
+  },
+  {
+    id: "bandage-001",
+    name: "Бинт",
+    icon: "https://via.placeholder.com/64?text=Bandage",
+    weight: 0.1,
+    quantity: 10,
+  },
+  {
+    id: "ammo-9mm-001",
+    name: "Патроны 9mm",
+    icon: "https://via.placeholder.com/64?text=Ammo",
+    weight: 0.02,
+    quantity: 120,
+  },
+  {
+    id: "rope-001",
+    name: "Верёвка",
+    icon: "https://via.placeholder.com/64?text=Rope",
+    weight: 1.5,
+    quantity: 1,
+  },
+  {
+    id: "torch-001",
+    name: "Факел",
+    icon: "https://via.placeholder.com/64?text=Torch",
+    weight: 0.8,
+    quantity: 2,
+  },
+  {
+    id: "map-ancient-001",
+    name: "Старинная карта",
+    icon: "https://via.placeholder.com/64?text=Map",
+    weight: 0.1,
+    quantity: 1,
+  },
+  {
+    id: "key-gold-001",
+    name: "Золотой ключ",
+    icon: "https://via.placeholder.com/64?text=Key",
+    weight: 0.05,
+    quantity: 1,
+  },
+  {
+    id: "gem-ruby-001",
+    name: "Рубин",
+    icon: "https://via.placeholder.com/64?text=Ruby",
+    weight: 0.02,
+    quantity: 3,
+  },
+];
